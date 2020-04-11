@@ -2,7 +2,6 @@
 
 ### Built with MEAN Stack. This helps me improve my use of NOde, Express and MongoDB
 
-<hr>
 
 # Features
 
