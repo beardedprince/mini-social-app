@@ -1,0 +1,5 @@
+
+<div class="container" *ngFor = "let user of usersList">
+    <mat-card [routerLink]="['/users', user._id]" style="cursor:pointer" class="my-2"> {{user.name}}
+</mat-card>
+</div>

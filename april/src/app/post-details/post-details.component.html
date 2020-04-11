@@ -1,0 +1,16 @@
+<h3 class="mt-1">My Posts </h3>
+    <div class="row mb-3" *ngFor="let post of postdetails">
+        <div class="col-md-12">
+                <mat-card class="mt-2">
+                        <mat-card-content >
+                            <div class="d-flex-column">
+                                <div class="me">{{post.message}}</div>
+                                <div class="me"> <mat-button></mat-button></div>
+                            </div>
+                        </mat-card-content>
+                        <mat-card-footer>
+                            Post by: 
+                        </mat-card-footer>
+                    </mat-card>
+        </div>
+    </div>

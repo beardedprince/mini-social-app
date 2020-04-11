@@ -1,0 +1,18 @@
+
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>What's on your mind</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <form class="example-form">
+            <mat-form-field class="example-full-width">
+              <textarea matInput placeholder="My post"  [(ngModel)]="postData.message" name="message"></textarea>
+            </mat-form-field>
+  
+            
+  
+            <button mat-raised-button color="primary" (click)="post()"> Post</button>
+          </form>
+        </mat-card-content>
+      </mat-card>
+  
